@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>피아노|기타 연습</title>
+</head>
+<body>
+<div id="main">
+	<div class="menu">
+  <button id="piano-btn">
+    피아노
+  </button>
+  <button id="guitar-btn">
+    기타
+  </button>
+</div>
+<div class="main">
+  <div id="piano-pannel">
+    <div class="guide-wrapper">
+      <ul class="guide">
+        <li class="key">
+          <div class="white-key" data-key="122" data-note="1c"></div>
+          <div class="black-key" data-key="120" data-note="1cis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="88" data-note="1d"></div>
+          <div class="black-key" data-key="68" data-note="1dis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="67" data-note="1e"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="81" data-note="1f"></div>
+          <div class="black-key" data-key="50" data-note="1fis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="87" data-note="1g"></div>
+          <div class="black-key" data-key="51" data-note="1gis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="69" data-note="2a"></div>
+          <div class="black-key" data-key="52" data-note="2ais"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="82" data-note="2b"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="84" data-note="2c"></div>
+          <div class="black-key" data-key="54" data-note="2cis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="89" data-note="2d"></div>
+          <div class="black-key" data-key="55" data-note="2dis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="85" data-note="2e"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="73" data-note="2f"></div>
+          <div class="black-key" data-key="57" data-note="2fis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="79" data-note="2g"></div>
+          <div class="black-key" data-key="48" data-note="2gis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="80" data-note="3a"></div>
+          <div class="black-key" data-key="187" data-additional-key="189" data-note="3ais"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="219" data-note="3b"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="221" data-note="3c"></div>
+          <div class="black-key" data-key="70" data-note="3cis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="86" data-note="3d"></div>
+          <div class="black-key" data-key="71" data-note="3dis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="66" data-note="3e"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="78" data-note="3f"></div>
+          <div class="black-key" data-key="74" data-note="3fis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="77" data-note="3g"></div>
+          <div class="black-key" data-key="75" data-note="3gis"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="188" data-note="4a"></div>
+          <div class="black-key" data-key="76" data-note="4ais"></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="190" data-note="4b"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="keyboard-wrapper">
+      <ul class="keyboard">
+        <li class="key">
+          <div class="white-key" data-key="122" data-note="1c"><span class="text">다</span></div>
+          <div class="black-key" data-key="120" data-note="1cis"><span class="text">다♯<br />라♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="88" data-note="1d"><span class="text">라</span></div>
+          <div class="black-key" data-key="68" data-note="1dis"><span class="text">라♯<br />마♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="67" data-note="1e"><span class="text">마</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="81" data-note="1f"><span class="text">바</span></div>
+          <div class="black-key" data-key="50" data-note="1fis"><span class="text">바♯<br />사♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="87" data-note="1g"><span class="text">사</span></div>
+          <div class="black-key" data-key="51" data-note="1gis"><span class="text">사♯<br />가♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="69" data-note="2a"><span class="text">가</span></div>
+          <div class="black-key" data-key="52" data-note="2ais"><span class="text">가♯<br />나♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="82" data-note="2b"><span class="text">나</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="84" data-note="2c"><span class="text">다</span></div>
+          <div class="black-key" data-key="54" data-note="2cis"><span class="text">다♯<br />라♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="89" data-note="2d"><span class="text">라</span></div>
+          <div class="black-key" data-key="55" data-note="2dis"><span class="text">라♯<br />마♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="85" data-note="2e"><span class="text">마</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="73" data-note="2f"><span class="text">바</span></div>
+          <div class="black-key" data-key="57" data-note="2fis"><span class="text">바♯<br />사♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="79" data-note="2g"><span class="text">사</span></div>
+          <div class="black-key" data-key="48" data-note="2gis"><span class="text">사♯<br />가♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="80" data-note="3a"><span class="text">가</span></div>
+          <div class="black-key" data-key="187" data-additional-key="189" data-note="3ais"><span class="text">가♯<br />나♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="219" data-note="3b"><span class="text">나</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="221" data-note="3c"><span class="text">다</span></div>
+          <div class="black-key" data-key="70" data-note="3cis"><span class="text">다♯<br />라♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="86" data-note="3d"><span class="text">라</span></div>
+          <div class="black-key" data-key="71" data-note="3dis"><span class="text">라♯<br />마♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="66" data-note="3e"><span class="text">마</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="78" data-note="3f"><span class="text">바</span></div>
+          <div class="black-key" data-key="74" data-note="3fis"><span class="text">바♯<br />사♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="77" data-note="3g"><span class="text">사</span></div>
+          <div class="black-key" data-key="75" data-note="3gis"><span class="text">사♯<br />가♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="188" data-note="4a"><span class="text">가</span></div>
+          <div class="black-key" data-key="76" data-note="4ais"><span class="text">가♯<br />나♭</span></div>
+        </li>
+        <li class="key">
+          <div class="white-key" data-key="190" data-note="4b"><span class="text">나</span></div>
+        </li>
+      </ul>
+    </div>
+    <div class="exercise-board">
+      <div style="text-align: center;">
+      <button id="ex1">
+      A 연습하기
+      </button>
+      <button id="ex2">
+      B 연습하기
+      </button>
+      
+      </div>
+      <h1 class="msg">
+      </h1>
+    </div>
+    <div class="score-board">
+      <span id="correct-count">-</span> / <span id="hit-count">-</span>
+    </div>
+  </div>
+  <div id="guitar-pannel">
+    <div class="guitar-wrapper">
+      <div class="guitar">
+
+        <ul class="string">
+          <li data-note="g1">
+            <div class="note">사</div>
+          </li>
+          <li data-note="g2">
+            <div class="note">가♭</div>
+          </li>
+          <li data-note="g3">
+            <div class="note">가</div>
+          </li>
+          <li data-note="g4">
+            <div class="note">나♭</div>
+          </li>
+          <li data-note="g5">
+            <div class="note">나</div>
+          </li>
+          <li data-note="g6">
+            <div class="note">다</div>
+          </li>
+          <li data-note="g7">
+            <div class="note">라♭</div>
+          </li>
+          <li data-note="g8">
+            <div class="note">라</div>
+          </li>
+          <li data-note="g9">
+            <div class="note">마♭</div>
+          </li>
+          <li data-note="g10">
+            <div class="note">마</div>
+          </li>
+          <li data-note="g11">
+            <div class="note">바</div>
+          </li>
+          <li data-note="g12">
+            <div class="note">사♭</div>
+          </li>
+          <li data-note="g13">
+            <div class="note">사</div>
+          </li>
+          <li data-note="g14">
+            <div class="note">가♭</div>
+          </li>
+        </ul>
+        <ul class="string">
+          <li data-note="d1">
+            <div class="note">라</div>
+          </li>
+          <li data-note="d2">
+            <div class="note">마♭</div>
+          </li>
+          <li data-note="d3">
+            <div class="note">마</div>
+          </li>
+          <li data-note="d4">
+            <div class="note">바</div>
+          </li>
+          <li data-note="d5">
+            <div class="note">사♭</div>
+          </li>
+          <li data-note="d6">
+            <div class="note">사</div>
+          </li>
+          <li data-note="d7">
+            <div class="note">가♭</div>
+          </li>
+          <li data-note="d8">
+            <div class="note">가</div>
+          </li>
+          <li data-note="d9">
+            <div class="note">나♭</div>
+          </li>
+          <li data-note="d10">
+            <div class="note">나</div>
+          </li>
+          <li data-note="d11">
+            <div class="note">다</div>
+          </li>
+          <li data-note="d12">
+            <div class="note">라♭</div>
+          </li>
+          <li data-note="d13">
+            <div class="note">라</div>
+          </li>
+          <li data-note="d14">
+            <div class="note">마♭</div>
+          </li>
+        </ul>
+        <ul class="string">
+          <li data-note="a1">
+            <div class="note">가</div>
+          </li>
+          <li data-note="a2">
+            <div class="note">나♭</div>
+          </li>
+          <li data-note="a3">
+            <div class="note">나</div>
+          </li>
+          <li data-note="a4">
+            <div class="note">다</div>
+          </li>
+          <li data-note="a5">
+            <div class="note">라♭</div>
+          </li>
+          <li data-note="a6">
+            <div class="note">라</div>
+          </li>
+          <li data-note="a7">
+            <div class="note">마♭</div>
+          </li>
+          <li data-note="a8">
+            <div class="note">마</div>
+          </li>
+          <li data-note="a9">
+            <div class="note">바</div>
+          </li>
+          <li data-note="a10">
+            <div class="note">사♭</div>
+          </li>
+          <li data-note="a11">
+            <div class="note">사</div>
+          </li>
+          <li data-note="a12">
+            <div class="note">가♭</div>
+          </li>
+          <li data-note="a13">
+            <div class="note">가</div>
+          </li>
+          <li data-note="a14">
+            <div class="note">나♭</div>
+          </li>
+        </ul>
+        <ul class="string">
+          <li data-note="e1">
+            <div class="note">마</div>
+          </li>
+          <li data-note="e2">
+            <div class="note">바</div>
+          </li>
+          <li data-note="e3">
+            <div class="note">사♭</div>
+          </li>
+          <li data-note="e4">
+            <div class="note">사</div>
+          </li>
+          <li data-note="e5">
+            <div class="note">가♭</div>
+          </li>
+          <li data-note="e6">
+            <div class="note">가</div>
+          </li>
+          <li data-note="e7">
+            <div class="note">나♭</div>
+          </li>
+          <li data-note="e8">
+            <div class="note">나</div>
+          </li>
+          <li data-note="e9">
+            <div class="note">다</div>
+          </li>
+          <li data-note="e10">
+            <div class="note">라♭</div>
+          </li>
+          <li data-note="e11">
+            <div class="note">라</div>
+          </li>
+          <li data-note="e12">
+            <div class="note">마♭</div>
+          </li>
+          <li data-note="e13">
+            <div class="note">마</div>
+          </li>
+          <li data-note="e14">
+            <div class="note">바</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="keyboard-data" style="display:none">
+</div>
+<div id="guitar-data" style="display:none">
+</div>
+
+</div>
+
+<script type="text/javascript">
+	var noteNumMap = {
+  "1c": 28,
+  "1cis": 29,
+  "1d": 30,
+  "1dis": 31,
+  "1e": 32,
+  "1f": 33,
+  "1fis": 34,
+  "1g": 35,
+  "1gis": 36,
+  "2a": 37,
+  "2ais": 38,
+  "2b": 39,
+  "2c": 40,
+  "2cis": 41,
+  "2d": 42,
+  "2dis": 43,
+  "2e": 44,
+  "2f": 45,
+  "2fis": 46,
+  "2g": 47,
+  "2gis": 48,
+  "3a": 49,
+  "3ais": 50,
+  "3b": 51,
+  "3c": 52,
+  "3cis": 53,
+  "3d": 54,
+  "3dis": 55,
+  "3e": 56,
+  "3f": 57,
+  "3fis": 58,
+  "3g": 59,
+  "3gis": 60,
+  "4a": 61,
+  "4ais": 62,
+  "4b": 63
+};
+var keyMap = {
+  90: "1c",
+  83: "1cis",
+  88: "1d",
+  68: "1dis",
+  67: "1e",
+  81: "1f",
+  50: "1fis",
+  87: "1g",
+  51: "1gis",
+  69: "2a",
+  52: "2ais",
+  82: "2b",
+  84: "2c",
+  54: "2cis",
+  89: "2d",
+  55: "2dis",
+  85: "2e",
+  73: "2f",
+  57: "2fis",
+  79: "2g",
+  48: "2gis",
+  80: "3a",
+  187: "3ais",
+  219: "3b",
+  221: "3c",
+  70: "3cis",
+  86: "3d",
+  71: "3dis",
+  66: "3e",
+  78: "3f",
+  74: "3fis",
+  77: "3g",
+  75: "3gis",
+  188: "4a",
+  76: "4ais",
+  190: "4b"
+};
+
+var guitarKeys = ["g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8", "g9", "g10", "g1", "g12", "g13", "g14", "d0", "d1", "d2", "d3", "d4", "d5", "a0", "a1", "a2", "a3", "a4", "a5", "e0", "e1", "e2", "e3", "e4", "e"];
+
+var guitarNote = {
+  c: ["a4", "g6", "e9", "d11"],
+  cis: ["a5", "g7", "e10", "d12"],
+  des: ["a5", "g7", "e10", "d12"],
+  d: ["d1", "a6", "g8", "e11", "d13"],
+  dis: ["d2", "a7", "g9", "e12", "d14"],
+  es: ["d2", "a7", "g9", "e12", "d14"],
+  e: ["e1", "d3", "a8", "g10", "e13"],
+  f: ["d4", "a9", "g11", "e14"],
+  fis: ["e3", "d5", "a10", "g12"],
+  ges: ["e3", "d5", "a10", "g12"],
+  g: ["g1", "e4", "d6", "a11", "g13"],
+  gis: ["g2", "e5", "d7", "a12", "g14"],
+  as: ["g2", "e5", "d7", "a12", "g14"],
+  a: ["a1", "g3", "e6", "d8", "a13"],
+  ais: ["a2", "g4", "e7", "d9", "a14"],
+  b: ["a2", "g4", "e7", "d9", "a14"],
+  h: ["a3", "g5", "e8", "d10"]
+}
+
+var guitarMap = {
+  g0: "g0",
+  g1: "g1",
+  g2: "g2",
+  g3: "g3",
+  g4: "g4",
+  g5: "g5",
+  g6: "g6",
+  g7: "g7",
+  g8: "g8",
+  g9: "g9",
+  g10: "g10",
+  g11: "g11",
+  g12: "g12",
+  g13: "g13",
+  g14: "g14",
+  d0: "d0",
+  d1: "d1",
+  d2: "d2",
+  d3: "d3",
+  d4: "d4",
+  d5: "d5",
+  d6: "g1",
+  d7: "g2",
+  d8: "g3",
+  d9: "g4",
+  d10: "g5",
+  d11: "g6",
+  d12: "g7",
+  d13: "g8",
+  d14: "g9",
+  a0: "a0",
+  a1: "a1",
+  a2: "a2",
+  a3: "a3",
+  a4: "a4",
+  a5: "a5",
+  a6: "d1",
+  a7: "d2",
+  a8: "d3",
+  a9: "d4",
+  a10: "d5",
+  a11: "g1",
+  a12: "g2",
+  a13: "g3",
+  a14: "g4",
+  e0: "e0",
+  e1: "e1",
+  e2: "e2",
+  e3: "e3",
+  e4: "e4",
+  e5: "e5",
+  e6: "a1",
+  e7: "a2",
+  e8: "a3",
+  e9: "a4",
+  e10: "a5",
+  e11: "d1",
+  e12: "d2",
+  e13: "d3",
+  e14: "d4"
+}
+
+function loadAudio() {
+  var pianoBaseUrl = "https://www.musicca.com/lydfiler/piano/#.mp3"
+  var guitarBaseUrl = "https://www.musicca.com/lydfiler/bass-guitar/#.mp3"
+  for (i = 28; i <= 63; i++) {
+    $(`<audio data-note="${i}" src="https://www.musicca.com/lydfiler/piano/${i}.mp3"></audio>`).appendTo($("#keyboard-data"));
+  }
+  $.each(guitarKeys, (i, e) => {
+    $(`<audio data-note="${e}" src="https://www.musicca.com/lydfiler/bass-guitar/${e}.mp3"></audio>`).appendTo($("#guitar-data"));
+  })
+
+}
+
+loadAudio();
+
+function keyboardListener(e) {
+  playKeyboardSound(keyMap[e.keyCode]);
+}
+
+function playKeyboardSound(key) {
+  var noteNum = noteNumMap[key];
+  const audio = document.querySelector(`#keyboard-data audio[data-note="${noteNum}"]`);
+  const keynote = $(".keyboard .key>*[data-note='" + key + "']")
+  console.log(`K> key=${key}, sound=${noteNum}, ${audio}`);
+  if (!audio) return; // stop the function from running all together
+  audio.currentTime = 1; // rewind to the start
+  audio.play();
+  hitNode(key);
+  keynote.toggleClass('playing');
+}
+
+function playGuitarSound(key) {
+  var noteNum = guitarMap[key];
+  const audio = document.querySelector(`#guitar-data audio[data-note="${noteNum}"]`);
+  const keynote = $(".string li[data-note='" + key + "']")
+  console.log(`G> key=${key}, sound=${noteNum}, ${audio}`);
+  if (!audio) return; // stop the function from running all together
+  audio.currentTime = 1; // rewind to the start
+  audio.play();
+  //hitNode(key);
+  keynote.toggleClass('playing');
+}
+
+function removeTransition(e) {
+  if (e.propertyName !== 'background-color') return; // skip it if it's not a background-color change
+  this.classList.remove('playing');
+}
+
+$(".keyboard .key>*").on("click", function(e) {
+  var key = $(this).data("note");
+  playKeyboardSound(key);
+})
+
+const keys = document.querySelectorAll('.keyboard .key>*');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+window.addEventListener('keydown', keyboardListener);
+
+
+//
+
+var music = ["2g","2g","3a","3a","2g","2g","2e","2g","2g","2e","2e","2d","2g","2g","3a","3a","2g","2g","2e","2g","2e","2d","2e","2c"]
+
+var music2 = ["2fis","2g","2fis","3d","2fis","2fis","2fis","2fis","2fis","2fis","2g","2fis","2g","2fis","3d","2fis","2fis","2fis","2fis","2fis","2fis","2g","1fis","1g","2d","1g","1f","1g","1d","1fis","1g","2d","1g","1fis","1g","2g","2e","2b","3c","2b","2a","2b","3d","2b","3d","2b","2a","2a","2a","2b","2a","2g","2g","2e","2b","3c","2b","2a","2b","2g","2e","2b","3c","2b","2a","2b","2e","2b","2a","2a","2g","2a","2e","2b","2a","2a","2g","2a","2fis","2g","2fis","3d","2fis","2fis","2fis","2fis","2fis","2fis","2g","2fis","2g","2fis","3d","2fis","2fis","2fis","2fis","2fis","2fis","2g","2fis","2g","2fis","3d","2fis","2fis","2fis","2fis","2fis","2fis","2g","2fis","2g","2fis","3d","2g","2a","2a","3fis","3d"];
+
+var maxNoteCount = 7;
+var noteCount = 0;
+var noteQueue = [];
+var noteCorrect = 0;
+var isPracticeMode = false;
+
+function stackNode(key) {
+  var note = $("<div>").css("position", "absolute")
+    .addClass("note")
+    .text(key)
+    .appendTo($(".guide .key>*[data-note='" + key + "']"))
+  noteQueue.push(note)
+  $.each(noteQueue, (i, e) => {
+    e.css("bottom", i * (300 / maxNoteCount) + "px")
+  })
+}
+
+function startExercise(music){
+isPracticeMode = true;
+maxNoteCount = 7;
+noteCount = 0;
+noteQueue = [];
+noteCorrect = 0;
+	$(".guide .note").remove();
+  $(".msg").text("")
+	
+  $.each(music, (i, e) => {
+    stackNode(e)
+  })
+}
+
+function hitNode(key) {
+  if (!isPracticeMode) return;
+  if (noteQueue.length > 0) {
+    var note = noteQueue[0];
+    noteQueue = noteQueue.splice(1)
+    note.remove()
+    noteCount++;
+    if (note.text() == key) {
+      noteCorrect++;
+    }
+    $("#hit-count").text(noteCount);
+    $("#correct-count").text(noteCorrect);
+    $.each(noteQueue, (i, e) => {
+      e.animate({
+        bottom: i * (300 / maxNoteCount) + "px"
+      }, 200)
+    })
+  }
+  if (noteQueue.length == 0 && isPracticeMode) {
+    $(".msg").text("연습종료 정확도 " + Math.round(100.0 * noteCorrect / noteCount) + "%")
+    isPracticeMode = false;
+	$(".guide-wrapper").hide();
+	$(".exercise-board").show();
+  }
+
+}
+
+
+const keys2 = document.querySelectorAll('.string li');
+keys2.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+///
+
+
+$(".string li").on("click", function(e) {
+  var key = $(this).data("note");
+  playGuitarSound(key);
+})
+
+$(".string li").each(function(i, e) {
+  $("<div>").addClass("line").appendTo(e)
+  $("<div>").addClass("line-bg").appendTo(e)
+})
+
+
+$("#piano-btn").click(function() {
+isPracticeMode = false;
+  $(".msg").text("")
+  $("#piano-pannel").show();
+  $("#guitar-pannel").hide();
+
+	$(".guide-wrapper").hide();
+	$(".exercise-board").show();
+})
+
+
+$("#guitar-btn").click(function() {
+isPracticeMode = false;
+  $(".msg").text("")
+  $("#piano-pannel").hide();
+  $("#guitar-pannel").show();
+})
+
+$("#ex1").click(function() {
+	startExercise(music);
+	$(".guide-wrapper").show();
+	$(".exercise-board").hide();
+})
+$("#ex2").click(function() {
+	startExercise(music2);
+	$(".guide-wrapper").show();
+	$(".exercise-board").hide();
+})
+
+$("#piano-pannel").hide();
+$("#guitar-pannel").show();
+$(".guide-wrapper").hide();
+$(".score-board").hide();
+</script>
+<style type="text/css">
+	body {
+  margin: 0px;
+  padding: 0px;
+}
+.menu {
+  height: 40px;
+  width: 100%;
+  background: #cdd9c7;
+  z-index: 10;
+  padding: 10px;
+}
+
+button {
+  min-width: 100px;
+  padding: 10px;
+  background:#fff0;
+  border: 1px solid #EEE;
+  display: inline-block;
+}
+
+.guide-wrapper,
+.guitar-wrapper,
+.keyboard-wrapper {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: calc(50% - 100px);
+  z-index: -1;
+}
+.guide-wrapper {
+  top: calc(50% - 401px);
+}
+
+
+.guitar {
+  margin: auto;
+  padding: 0;
+  width: 1000px;
+  background: linear-gradient(to bottom right, #340f07, #310f07);
+}
+
+.keyboard,
+.guide {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 1000px;
+  height: 250px;
+}
+
+.key {
+  position: relative;
+  margin: 2px;
+  width: 80px;
+  height: 100%;
+}
+
+.keyboard .key>* {
+  border-radius: 3px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.07s;
+}
+
+.keyboard .key>.black-key:hover {
+  background: #333;
+}
+
+.keyboard .key>.white-key:hover {
+  background: #DDD;
+}
+
+.keyboard .key .text {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.key>.black-key>.text {
+  color: #FFF;
+}
+
+.white-key.playing {
+  background: #BBB !important;
+}
+
+.black-key.playing {
+  background: #555 !important;
+}
+
+.keyboard .key .black-key {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 65%;
+  width: 70%;
+  height: 55%;
+  border-radius: 0 0 3px 3px;
+  background-color: #000;
+  z-index: 1;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.key .white-key {
+  display: block;
+  height: 100%;
+}
+
+.key.playing {
+  background-color: #e6e6e6;
+}
+
+.key kbd {
+  display: block;
+  padding-top: 200px;
+  font-size: 50px;
+}
+
+.key .sound {
+  display: block;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+
+.guide {
+  height: 300px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.guide .white-key,
+.guide .black-key {
+  border: 1px solid #DDD;
+}
+
+.guide .black-key {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 65%;
+  width: 70%;
+  height: 100%;
+}
+
+.guide .note {
+  border-radius: 3px;
+  border: 2px solid #000;
+  background-color: #66A;
+  color: white;
+  width: calc(100% - 5px);
+  max-width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 900;
+  z-index: 5;
+}
+
+
+
+/*
+------------Guitar
+*/
+
+#guitar-pannel {
+  margin: auto;
+  background: linear-gradient(to bottom right, #340f07, #310f07);
+  z-index: -4px;
+}
+
+ul.string {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.string div.note{
+  position: relative;
+  color: white;
+  top: 13px;
+  background: #333;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2px 4px;
+  z-index: 10;
+}
+
+.string li {
+  position: relative;
+  width: 6.5%;
+  height: 50px;
+  list-style: none;
+  text-align: center;
+  padding: 3px;
+}
+
+.string li:not(:first-child) {
+  border-left: 2px solid #777;
+}
+
+.string li .line {
+  position: absolute;
+  width: 100vh;
+  top: 25px;
+  margin-left: -4px;
+  background-color: #bbb0;
+  transition: all 0.5s;
+  z-index: 2;
+}
+.string .line-bg{
+  position: absolute;
+  width: 100vh;
+  top: 25px;
+  height: 3px;
+  margin-left: -4px;
+  background-color: #bbb;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.string:nth-child(1) li .line,
+.string:nth-child(1) li .line-bg {
+  height: 3px;
+}
+
+.string:nth-child(2) li .line,
+.string:nth-child(2) li .line-bg {
+  height: 4px;
+}
+
+.string:nth-child(3) li .line,
+.string:nth-child(3) li .line-bg {
+  height: 6px;
+}
+
+.string:nth-child(4) li .line,
+.string:nth-child(4) li .line-bg {
+  height: 7px;
+}
+
+.string li.playing .line {
+  background-color: #5aa;
+  transition: all 0.1s;
+}
+
+
+.hide {
+  display: none;
+}
+
+.exercise-board {
+  width: 350px;
+}
+.exercise-board,
+.score-board {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 175px);
+}
+</style>
+</body>
+</html>
